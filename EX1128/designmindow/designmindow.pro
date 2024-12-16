@@ -22,3 +22,18 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 FORMS += \
     mainwindow.ui
+
+RESOURCES += \
+    images/designwindow.qrc
+
+DISTFILES += \
+    images/asave.png \
+    images/copy.png \
+    images/cut.png \
+    images/editor.png \
+    images/find.png \
+    images/new.png \
+    images/open.png \
+    images/paste.png \
+    images/save.png \
+    images/undo.png
